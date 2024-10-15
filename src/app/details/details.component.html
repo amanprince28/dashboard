@@ -1,0 +1,141 @@
+<div class="customer-form">
+  <mat-card>
+    <mat-card-title>Customer - Add</mat-card-title>
+    <mat-card-content>
+      <!-- Customer Details -->
+      <h3>Customer Details</h3>
+      <form>
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter name">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>IC</mat-label>
+            <input matInput placeholder="Enter IC">
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Passport</mat-label>
+            <input matInput placeholder="Enter Passport">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Race</mat-label>
+            <input matInput placeholder="Enter Race">
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Gender</mat-label>
+            <mat-select>
+              <mat-option value="male">Male</mat-option>
+              <mat-option value="female">Female</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Mental Status</mat-label>
+            <input matInput placeholder="Enter Mental Status">
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>No. of Child</mat-label>
+            <input matInput type="number" placeholder="Enter No. of Child">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Car Plate</mat-label>
+            <input matInput placeholder="Enter Car Plate">
+          </mat-form-field>
+        </div>
+
+        <div class="form-row">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="Enter Email">
+          </mat-form-field>
+        </div>
+      </form>
+
+      <!-- Tabs for Other Sections -->
+      <mat-tab-group>
+        <mat-tab label="Address & Contact">
+          <form>
+            <h3>Customer Address</h3>
+            <div class="form-row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Address Line 1</mat-label>
+                <input matInput placeholder="Enter Address Line 1">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Address Line 2</mat-label>
+                <input matInput placeholder="Enter Address Line 2">
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Postal Code</mat-label>
+                <input matInput placeholder="Enter Postal Code">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>City</mat-label>
+                <input matInput placeholder="Enter City">
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>State</mat-label>
+                <input matInput placeholder="Enter State">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Country</mat-label>
+                <input matInput placeholder="Enter Country">
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Telephone</mat-label>
+                <input matInput placeholder="Enter Telephone">
+              </mat-form-field>
+
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Mobile</mat-label>
+                <input matInput placeholder="Enter Mobile">
+              </mat-form-field>
+            </div>
+
+            <div class="form-row">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Staying Since</mat-label>
+                <input matInput type="date">
+              </mat-form-field>
+            </div>
+          </form>
+        </mat-tab>
+
+        <mat-tab label="Employment & Company">Content for Employment & Company</mat-tab>
+        <mat-tab label="Family & Guarantor">Content for Family & Guarantor</mat-tab>
+        <mat-tab label="Banking">Content for Banking</mat-tab>
+        <mat-tab label="Documents">Content for Documents</mat-tab>
+      </mat-tab-group>
+
+      <div class="action-buttons">
+        <button mat-raised-button color="primary">Save</button>
+        <button mat-raised-button>Cancel</button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

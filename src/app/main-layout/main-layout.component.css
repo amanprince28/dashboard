@@ -1,0 +1,39 @@
+.example-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-sidenav {
+  width: 250px;
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+.example-icon {
+  margin-right: 10px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  .mat-icon {
+    margin-right: 5px;
+  }
+}
+
+.mat-toolbar {
+  background: #3f51b5;
+  color: white;
+}
+
+.container-fluid {
+  padding: 20px;
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
